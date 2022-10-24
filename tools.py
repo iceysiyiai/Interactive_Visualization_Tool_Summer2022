@@ -177,9 +177,8 @@ def score_gen (transform, img_input, mask_input, model):
     orig_softmax = softmax(orig_output)
     
     orig_confidences = np.squeeze(orig_output)
-    orig_sorted_confidences = np.argsort(-orig_confidences)
-    index = np.where(orig_confidences == orig_sorted_confidences[0])
-    orig_val = 100*orig_softmax[0,index[0]].item()
+    orig_inds = np.argsort(-orig_confidences)
+    orig_val = 100*orig_softmax[0,orig_inds[0]].item()
     
     
     masked_img = transform(img_input, mask_input)
@@ -194,7 +193,7 @@ def score_gen (transform, img_input, mask_input, model):
 
     # confidences = np.squeeze(y_output)
     # inds = np.argsort(-confidences)
-    val = 100*y_softmax[0,index[0]].item()
+    val = 100*y_softmax[0,orig_inds[0]].item()
     
     percentage = val/orig_val
     with open('out.txt', 'w') as f:
