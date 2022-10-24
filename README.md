@@ -8,7 +8,6 @@ This repository contains two perturbation tools in the two separate ipython note
 * [Textual Class List](https://github.com/iceysiyiai/Interactive_Visualization_Tool_Summer2022/blob/main/InteractiveList.ipynb) shows the result of perturbation in the form of texual lists containing the top five classes and respective softmax scores for each. Users use their mouse to highlight the regions in picture that they want to occlude.
 * [Green Bar Visualization](https://github.com/iceysiyiai/Interactive_Visualization_Tool_Summer2022/blob/main/InteractiveVisualization.ipynb) visualizes the result of perturbation by the changing length of the green bar at the side of the picture. The green bar's length demonstrates how the confidence level changes after each perturbation.
 ### Demo
-
 Textual List Results             |   Visualization of results
 :-------------------------:|:-------------------------:
 <img src="Images/ListDemo.png" alt="Demonstration of the results of project 1" height="200" /> |     <img src="Images/demo1.gif" alt="Visualizatin Demo" height="200" />
@@ -28,4 +27,4 @@ Original Source Image         |   Image after Cropping Transformation
 
 
 ## Acknowledgements
-Special thanks to the supervision and guidance of [Dr.Ruth Fong] (https://www.ruthfong.com/), [Devon Ulrich](https://github.com/devonulrich). Also thanks to the contribution of Zohra Boumhaout.
+Special thanks to the supervision and guidance of [Dr.Ruth Fong] (https://www.ruthfong.com/), and help from [Devon Ulrich](https://github.com/devonulrich). Also thanks to the contribution of Zohra Boumhaout.
