@@ -27,4 +27,4 @@ Original Source Image         |   Image after Cropping Transformation
 
 
 ## Acknowledgements
-Special thanks to the supervision and guidance of [Dr.Ruth Fong] (https://www.ruthfong.com/), and help from [Devon Ulrich](https://github.com/devonulrich). Also thanks to the contribution of Zohra Boumhaout.
+Special thanks to the supervision and guidance of [Dr.Ruth Fong](https://www.ruthfong.com/), and help from [Devon Ulrich](https://github.com/devonulrich). Also thanks to the contribution of Zohra Boumhaout.
